@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,20 +11,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-color: #5d7199;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px 2px pink;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(22, 21, 21);
 }
 
-.App-link {
+/*.App-link {
   color: #61dafb;
 }
 
@@ -35,4 +37,48 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+p{
+  color: rgb(21, 5, 35);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px 2px pink;
+  font-size: large;  
+  /* uso animación de desplazamiento*/
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+
+#nombre{
+  border: solid rgba(40, 8, 8, 0.493);  
+  text-align: center;  
+}
+
+#enviar{
+  background-color: rgb(212, 216, 192);
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 4px;
+  transition: bacground-color 0.3; /*transición suave para el cambio de color*/
+}
+
+#enviar:hover{
+  background-color:rgb(170, 112, 188) ;/* cambia de color cuando el mouse pasa sobre "Enviar" */
+}
+
+#enviar:active{
+  background-color: rgb(143, 143, 230); /* Cambio de color de fondo cuando se hace clic en "Enviar" */
 }
