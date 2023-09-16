@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/progWeb/static/css/main.073c9b0a.css",
-    "main.js": "/progWeb/static/js/main.71aecac5.js",
+    "main.css": "/progWeb/static/css/main.45aee6eb.css",
+    "main.js": "/progWeb/static/js/main.c19fb334.js",
     "static/js/787.f9640105.chunk.js": "/progWeb/static/js/787.f9640105.chunk.js",
-    "static/media/logo.svg": "/progWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/piedra.png": "/progWeb/static/media/piedra.477e7d3184c4d24177d2.png",
+    "static/media/tijera.jpg": "/progWeb/static/media/tijera.3609412776f98d667ab2.jpg",
+    "static/media/papel.jpg": "/progWeb/static/media/papel.e137290e8ed3a814a802.jpg",
     "index.html": "/progWeb/index.html",
-    "main.073c9b0a.css.map": "/progWeb/static/css/main.073c9b0a.css.map",
-    "main.71aecac5.js.map": "/progWeb/static/js/main.71aecac5.js.map",
+    "main.45aee6eb.css.map": "/progWeb/static/css/main.45aee6eb.css.map",
+    "main.c19fb334.js.map": "/progWeb/static/js/main.c19fb334.js.map",
     "787.f9640105.chunk.js.map": "/progWeb/static/js/787.f9640105.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.71aecac5.js"
+    "static/css/main.45aee6eb.css",
+    "static/js/main.c19fb334.js"
   ]
 }
